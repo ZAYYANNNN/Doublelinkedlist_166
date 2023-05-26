@@ -63,6 +63,9 @@ while (current->next != NULL && current->next->noMhs < nim)	//Step 1.c
 	current = current->next;	//step 1.e
 }
 
-
+if (current->next != NULL && nim == current->next->noMhs) {
+	cout << "\nDuplicate roll numbers not allowed" << endl;
+	return;
+}
 
 
