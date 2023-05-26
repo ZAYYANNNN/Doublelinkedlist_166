@@ -60,4 +60,9 @@ Node* previous = NULL;	//STEP 1.B
 while (current->next != NULL && current->next->noMhs < nim)	//Step 1.c
 {
 	previous = current;	//step 1.d
-	
+	current = current->next;	//step 1.e
+}
+
+
+
+
