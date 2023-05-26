@@ -37,4 +37,5 @@ void Doublelinkedlist::addNode() {
 	cout << "\nEnter the name of the student : ";
 	cin >> nm;
 	Node* newNode = new node();	//STEP 1
+	newNode->noMhs = nim;	//step 2
 }
