@@ -68,4 +68,7 @@ if (current->next != NULL && nim == current->next->noMhs) {
 	return;
 }
 
+newNode->next = current->next;	//step 4
+newNode->prev = current;	//step5
+
 
